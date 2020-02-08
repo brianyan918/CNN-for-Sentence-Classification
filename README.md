@@ -1,6 +1,6 @@
 # CNN-for-Sentence-Classification
 
-**Introduction: **
+**Introduction:**
 
 The task of this model is to classify sentences into 16 different genres, ranging from video games to music.
 
@@ -12,7 +12,7 @@ Individual CNN models achieved between 84-86% accuracy with optimal early stoppi
 
 The CNN architecture is implemented following the baseline provided by Yoon Kim’s paper, CNN for Sentence Classification. As such, this report will not enumerate all the mathematical operations but rather mention the components of the CNN architecture and focus on the hyperparameter controller implementation.
 
-*The Baseline CNN*****
+*The Baseline CNN*
 
 The inputs to the model are sentences, encoded as a sequence of word embeddings. FastText provides pre-trained embeddings on Wikipedia and news articles. These embeddings are 1 x 300 in size. The choice to use pre-trained embeddings affords greater generalization than embeddings trained on the smaller corpus of our task. Embeddings that were trained on the corpus alone, through unsupervised CBOW, achieved far lower performance in the classification task. In the classification task, the word embeddings were kept static.
 
