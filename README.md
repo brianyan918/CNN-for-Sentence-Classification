@@ -8,6 +8,8 @@ The approach is to use a convolution layer to extract n-gram features of varying
 
 Individual CNN models achieved between 84-86% accuracy with optimal early stopping. If several of these models are ensembled together using a majority voting scheme, then an additional 2-4% boost is achieved.
 
+Project write-up and data is available at: http://www.phontron.com/class/nn4nlp2020/assignments.html
+
 **Model:**
 
 The CNN architecture is implemented following the baseline provided by Yoon Kim’s paper, CNN for Sentence Classification. As such, this report will not enumerate all the mathematical operations but rather mention the components of the CNN architecture and focus on the hyperparameter controller implementation.
